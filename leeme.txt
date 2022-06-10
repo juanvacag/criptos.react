@@ -1,0 +1,19 @@
+desde una ventana del terminal y dentro de la carpeta padre, teclear:
+
+1º npm init vite@latest
+
+    nos pedira tres datos:
+
+        nombre del proyecto:    8-criptos-react
+        select framework:       react
+        select a variant:       react
+
+2º cd 8-criptos-react
+
+3º npm install
+
+4º copiar desde los materiales del curso la carpeta "img" dentro de la carpeta "src" 
+
+5º npm install @emotion/react @emotion/styled
+
+6º npm run dev

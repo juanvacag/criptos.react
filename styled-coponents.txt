@@ -1,0 +1,16 @@
+En JSX podemos utilizar HTML con expresiones Javasript, pero tambien es posible crear 
+un elemento HTML con la sintaxis de un componente y añadir propiedades CSS.
+
+En lugar de utilizar una hoja de estilos global o una libreria externa, se escribe el codigo
+CSS en cada componente (CSS en JS)
+
+Al dejar de utilizar un componente, podemos eliminar su codigo CSS tambien, a diferencia de
+una hoja de estilos global.
+
+la sintaxis es:
+    const Heading = styled.h1`
+    font-size: 2em;
+    text-transform: uppercase;
+    `;
+
+    <Heading>Nuestros Productos</Heading>
