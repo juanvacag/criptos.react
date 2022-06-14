@@ -1,0 +1,11 @@
+Algunas veces vas a desear crear tus propios Hooks, un de las razones de por que deseas 
+crearlos es para re-utilizar una función.
+
+Tambien puedes crear una función Helper, pero existe otra gran ventaja de crear tus propios
+Hooks y es la de incorporar State y mantener el valor de una función de forma persistente.
+
+Tu codigo personalizado tendrá todas las ventajas de React como son: state, effects, integrar
+otros Hooks y el perfomance.
+
+Re-utilizable en otros proyectos y lugares de tu página.
+
